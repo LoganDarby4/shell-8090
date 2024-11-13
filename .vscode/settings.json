@@ -1,0 +1,10 @@
+{
+  "detectedConfig": {
+    "typescript": true,
+    "naming": "Pascal Case",
+    "unit": "px",
+    "framework": "html-css",
+    "styling": "Tailwind"
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}

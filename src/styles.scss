@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+@import "../node_modules/tailwindcss/components.css" layer(tailwind-components);
+@import "../node_modules/tailwindcss/base.css" layer(tailwind-base);
+@import "../node_modules/tailwindcss/utilities.css" layer(tailwind-utilities);
+
+@import "primeng/resources/themes/aura-light-blue/theme.css" layer(primeng);
+@import "primeicons/primeicons.css" layer(primeng);
+@import "primeng/resources/primeng.css" layer(primeng);
+
+@layer tailwind-base, primeng, tailwind-utilities;
+
+html {
+  font-size: 18;
+}
+body {
+  @apply leading-[normal] m-0;
+}
+
+@layer primeng {
+  button {
+    border-radius: inherit;
+  }
+}
+
+.p-component {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
